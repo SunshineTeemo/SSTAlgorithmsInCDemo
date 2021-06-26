@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AEF7E4A62687095E008CB14A /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AEF7E4A52687095E008CB14A /* main.c */; };
-		AEF7E4AD268709D7008CB14A /* ChapterOne.c in Sources */ = {isa = PBXBuildFile; fileRef = AEF7E4AC268709D7008CB14A /* ChapterOne.c */; };
+		AEF7E4B026871019008CB14A /* ChapterOne.c in Sources */ = {isa = PBXBuildFile; fileRef = AEF7E4AF26871019008CB14A /* ChapterOne.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,7 +26,8 @@
 /* Begin PBXFileReference section */
 		AEF7E4A22687095E008CB14A /* StudyAlogorithmsInC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = StudyAlogorithmsInC; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEF7E4A52687095E008CB14A /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		AEF7E4AC268709D7008CB14A /* ChapterOne.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ChapterOne.c; sourceTree = "<group>"; };
+		AEF7E4AE26871019008CB14A /* ChapterOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChapterOne.h; sourceTree = "<group>"; };
+		AEF7E4AF26871019008CB14A /* ChapterOne.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ChapterOne.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				AEF7E4A52687095E008CB14A /* main.c */,
-				AEF7E4AC268709D7008CB14A /* ChapterOne.c */,
+				AEF7E4AE26871019008CB14A /* ChapterOne.h */,
+				AEF7E4AF26871019008CB14A /* ChapterOne.c */,
 			);
 			path = StudyAlogorithmsInC;
 			sourceTree = "<group>";
@@ -122,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEF7E4AD268709D7008CB14A /* ChapterOne.c in Sources */,
+				AEF7E4B026871019008CB14A /* ChapterOne.c in Sources */,
 				AEF7E4A62687095E008CB14A /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
