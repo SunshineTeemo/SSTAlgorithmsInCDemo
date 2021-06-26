@@ -12,7 +12,9 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     printf("Hello, World!\n");
 
-    add(1, 2);
+    quickFindAlgorithm();
+
+    
     
     return 0;
 }

@@ -14,5 +14,5 @@
 #endif /* ChapterOne_h */
 
 
-int add(int a, int b);
+void quickFindAlgorithm(void);
 
